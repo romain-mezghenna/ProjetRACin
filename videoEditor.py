@@ -36,3 +36,25 @@ def extract_audio(video_file, video_file_extension="mp4"):
         print(f"Audio file {video_file}.mp3 has been succesfully saved.")
     except Exception as e:
         print(f"Error while extracting the audio from the video : {e}")
+
+# Function to extract an image from the video at a specific time
+# Input : video_file : the path to the video file
+#         time : the time in seconds
+# Output : the path to the image file
+def extract_image(video_file, time):
+    # create directory ./images/ if it does not exist
+    os.makedirs("images", exist_ok=True)
+    # Extract the image from the video
+    if os.path.exists(video_file + "-" + str(time) + ".png"):
+        print(f"Image file {video_file}-{time}.png already exists.")
+        return
+    if not os.path.exists(video_file + ".mp4"):
+        print(f"Video file {video_file}.mp4 does not exist.")
+        return
+    try :
+        video = moviepy.editor.VideoFileClip(video_file + ".mp4")
+        video.save_frame("./images/" + video_file + "-" + str(time) + ".png", t=time)
+        print(f"Image file {video_file}-{time}.png has been succesfully saved.")
+        return "./images/" + video_file + "-" + str(time) + ".png"
+    except Exception as e:
+        print(f"Error while extracting the image from the video : {e}")
