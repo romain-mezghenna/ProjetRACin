@@ -6,3 +6,8 @@ torch
 jiwer
 ultralytics
 ollama
+crewai
+langchain
+langchain-community
+chromadb
+crewai[tools]
