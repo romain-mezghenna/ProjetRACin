@@ -96,9 +96,3 @@ Timestamp: 143.84 s, Path de l'image: ./detections\detection_143.jpg, Objet d�
 Timestamp: 144.84 s, Path de l'image: ./detections\detection_144.jpg, Objet d�tect�: wine glass, Confiance: 0.5701612234115601
 Timestamp: 146.16 s, Path de l'image: ./detections\detection_146.jpg, Objet d�tect�: wine glass, Confiance: 0.5434169769287109
 Timestamp: 147.16 s, Path de l'image: ./detections\detection_147.jpg, Objet d�tect�: cup, Confiance: 0.700812578201294
-Timestamp: 200.16 s, Path de l'image: ./detections\detection_147.jpg, Objet d�tect�: cup, Confiance: 0.700812578201294
-Timestamp: 201.16 s, Path de l'image: ./detections\detection_147.jpg, Objet d�tect�: cup, Confiance: 0.700812578201294
-Timestamp: 202.16 s, Path de l'image: ./detections\detection_147.jpg, Objet d�tect�: cup, Confiance: 0.700812578201294
-Timestamp: 242.16 s, Path de l'image: ./detections\detection_147.jpg, Objet d�tect�: cup, Confiance: 0.700812578201294
-Timestamp: 243.16 s, Path de l'image: ./detections\detection_147.jpg, Objet d�tect�: cup, Confiance: 0.700812578201294
-Timestamp: 244.16 s, Path de l'image: ./detections\detection_147.jpg, Objet d�tect�: cup, Confiance: 0.700812578201294

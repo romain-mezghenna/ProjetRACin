@@ -33,19 +33,19 @@ class EmbedOllama(EmbeddingFunction[Documents]):
 script_collection = client.get_or_create_collection(name="script_collection", embedding_function=EmbedOllama(model="mxbai-embed-large"))
 
 # Open the transcript file 
-with open("./transcripts/video-large.txt", "r") as file:
-    #Read line by line
-    i=script_collection.count()
-    for line in file:
-        # Add the line to the collection
-        script_collection.add(
-            documents=[line],
-            metadatas=[{"source": "video-large.txt"}],
-            ids=[f"id_{i}"]
-        )
-        i+=1
+# with open("./transcripts/video-large.txt", "r") as file:
+#     #Read line by line
+#     i=script_collection.count()
+#     for line in file:
+#         # Add the line to the collection
+#         script_collection.add(
+#             documents=[line],
+#             metadatas=[{"source": "video-large.txt"}],
+#             ids=[f"id_{i}"]
+#         )
+#         i+=1
         
-print("Collection filled")
+# print("Collection filled")
 
 mots_alcool = [
     "bière", "vin", "whisky", "vodka", "rhum", "gin", "tequila", "liqueur",
@@ -104,20 +104,54 @@ class DocumentSearchTool(BaseTool):
     description: str = "Search in French the document collection for the query texts and return the documents that are related with it."
 
     def _run(self, query_texts: List[str]) -> str:
-        query = script_collection.query(
-            query_texts=mots_alcool,
+        response = script_collection.query(
+            query_texts=query_texts,
             n_results=1
         )
-        return query.get("documents")
+        print('response')
+        print(response)
+        return response.get("documents")
+    
+
+class ImageSearchTool(BaseTool):
+    name: str = "ImageSearchTool"
+    description: str = "Image analysis tool that you analyse an image and return the description of the scene."
+
+    def _run(self, image : str) -> str:
+        response = ollama.generate(
+            model="llava:13b",
+            system="""You're a movie scene analyst and you're task is to describe the scene in the image given. You attention should be turned to the alcohol presence in the image. You're response is expected to be around 2 lines.""",
+            prompt="Describe what is going on in this image, you're response must not exceed 3 lines :",
+            images=[image]
+        )
+        return response.get('response')
 
 
 # Set the differents models
 
-llava = Ollama(model="llava-llama3:8b")
-llama = Ollama(model="llama3")
-embeded = Ollama(model="mxbai-embed-large")
+llava = Ollama(model="llava:13b")
+llama = Ollama(model="llama3:instruct")
+
 
 # Set the differents Agents
+
+# Scene analyst 
+scene_analyst = Agent(
+    role= "Scene analyst",
+    goal="Analyse the scene from the context given and give a probability of the presence of alcohol in the scene.",
+    backstory="""
+    You're a scene analyst assitant and you're task is to analyse the scene and give a probability of the presence of alcohol in the scene.
+    You will be given a ImageSearchTool that can, with a image path, describe the image for you. You utilizations of the tool shouldn't exceed 10 times.
+    The user will provide you with all the transcript of the scene, the images paths available for analysis, and the differents objects detected along the scene with theirs probabilities.
+    Provide the probability of the presence of alcohol in the scene and its description from your understanding of the scene in a JSON format with the keys "probability" and "description".
+    """,
+    verbose=True,
+    allow_delegation=False,
+    tools=[ImageSearchTool()],
+    llm=llama
+)
+
+
 image_analyst = Agent(
     role= "Image analyst",
     goal="Analyse the preprocess image by an object recognition model and describe if any alcohol related objects are detected. Try to see if the people are drinking. You're response must be as short as possible. Be precise and do not make assumptions or approximations. Use simple language and avoid technical terms.",
@@ -196,6 +230,24 @@ task3 = Task(
     tools=[DocumentSearchTool(collection=script_collection)],
 )
 
+
+task4 = Task(
+    agent=scene_analyst,
+    description="""
+    Analyze the scene from the context given and give a probability of the presence of alcohol in the scene.
+    You will be given a ImageSearchTool that can, with a image path, describe the image for you. You MUST use the tool at least once. You utilizations of the tool shouldn't exceed 10 times.
+    Context : 
+    Scene 1 objects and confidence:
+    - bottle: 0.7910057902336121
+    - wine glass: 0.5845166444778442
+    - cup: 0.533115804195404
+    Images: './detections/detection_7.jpg', './detections/detection_8.jpg', './detections/detection_9.jpg', './detections/detection_10.jpg', './detections/detection_11.jpg', './detections/detection_12.jpg', './detections/detection_13.jpg', './detections/detection_15.jpg', './detections/detection_16.jpg', './detections/detection_17.jpg', './detections/detection_20.jpg', './detections/detection_22.jpg', './detections/detection_28.jpg', './detections/detection_29.jpg', './detections/detection_147.jpg'
+   Give './detections/detection_7.jpg' as the image to the ImageSearchTool.
+    """,
+    expected_output="""Probability of the presence of alcohol in the scene and its description from your understanding of the scene in a JSON format with the keys "probability" and "description.""",
+    tools=[ImageSearchTool()],
+)
+
 crew1 = Crew(
     agents=[image_analyst, formater],
     tasks=[task1, task2],
@@ -208,9 +260,15 @@ crew2 = Crew(
     verbose=True,
 )
 
+crew = Crew(
+    agents=[scene_analyst],
+    tasks=[task4],
+    verbose=True,
+)
+
 # Delete the image
 #os.remove(image)
 
-result = crew2.kickoff()
+result = crew.kickoff()
 
 print(result)
