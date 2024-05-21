@@ -1,0 +1,5 @@
+detections/
+images/
+transcripts/
+yolov8n.pt
+yolov8s.pt
