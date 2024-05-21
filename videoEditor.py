@@ -22,7 +22,7 @@ def cut_video(video_file, start_time, end_time):
 # Input : video_file : the path to the video file
 #         video_file_extension : the extension of the video file (default is mp4)
 # Output : None
-def extract_audio(video_file, video_file_extension="mp4"):
+def extract_audio(video_file):
     # create directory ./audios/ if it does not exist
     os.makedirs("audios", exist_ok=True)
     # Extract the audio from the video
@@ -30,7 +30,7 @@ def extract_audio(video_file, video_file_extension="mp4"):
         print(f"Audio file {video_file}.mp3 already exists.")
         return
     try :
-        video = moviepy.editor.VideoFileClip(video_file + "." + video_file_extension)
+        video = moviepy.editor.VideoFileClip(video_file)
         audio = video.audio
         audio.write_audiofile("./audios/" + video_file + ".mp3")
         print(f"Audio file {video_file}.mp3 has been succesfully saved.")

@@ -1,0 +1,85 @@
+Timestamp: 1.08 s, Path de l'image: ./detections\detection_1.jpg, Objet d�tect�: bottle, Confiance: 0.6027281284332275
+Timestamp: 2.24 s, Path de l'image: ./detections\detection_2.jpg, Objet d�tect�: bottle, Confiance: 0.6628525257110596
+Timestamp: 3.24 s, Path de l'image: ./detections\detection_3.jpg, Objet d�tect�: bottle, Confiance: 0.7093387842178345
+Timestamp: 4.24 s, Path de l'image: ./detections\detection_4.jpg, Objet d�tect�: bottle, Confiance: 0.6231549382209778
+Timestamp: 5.24 s, Path de l'image: ./detections\detection_5.jpg, Objet d�tect�: bottle, Confiance: 0.6504103541374207
+Timestamp: 6.24 s, Path de l'image: ./detections\detection_6.jpg, Objet d�tect�: bottle, Confiance: 0.6234679818153381
+Timestamp: 7.24 s, Path de l'image: ./detections\detection_7.jpg, Objet d�tect�: bottle, Confiance: 0.6353940367698669
+Timestamp: 8.24 s, Path de l'image: ./detections\detection_8.jpg, Objet d�tect�: bottle, Confiance: 0.8478872179985046
+Timestamp: 9.56 s, Path de l'image: ./detections\detection_9.jpg, Objet d�tect�: bottle, Confiance: 0.6662883162498474
+Timestamp: 10.56 s, Path de l'image: ./detections\detection_10.jpg, Objet d�tect�: bottle, Confiance: 0.5275188088417053
+Timestamp: 11.56 s, Path de l'image: ./detections\detection_11.jpg, Objet d�tect�: bottle, Confiance: 0.6760830283164978
+Timestamp: 12.56 s, Path de l'image: ./detections\detection_12.jpg, Objet d�tect�: bottle, Confiance: 0.8122379183769226
+Timestamp: 13.64 s, Path de l'image: ./detections\detection_13.jpg, Objet d�tect�: bottle, Confiance: 0.6518903374671936
+Timestamp: 15.64 s, Path de l'image: ./detections\detection_15.jpg, Objet d�tect�: bottle, Confiance: 0.6099112033843994
+Timestamp: 16.64 s, Path de l'image: ./detections\detection_16.jpg, Objet d�tect�: bottle, Confiance: 0.8910660147666931
+Timestamp: 29.32 s, Path de l'image: ./detections\detection_29.jpg, Objet d�tect�: bottle, Confiance: 0.8455832004547119
+Timestamp: 30.32 s, Path de l'image: ./detections\detection_30.jpg, Objet d�tect�: bottle, Confiance: 0.8613393306732178
+Timestamp: 31.32 s, Path de l'image: ./detections\detection_31.jpg, Objet d�tect�: bottle, Confiance: 0.7820966839790344
+Timestamp: 32.36 s, Path de l'image: ./detections\detection_32.jpg, Objet d�tect�: bottle, Confiance: 0.5821651220321655
+Timestamp: 33.36 s, Path de l'image: ./detections\detection_33.jpg, Objet d�tect�: bottle, Confiance: 0.8053399920463562
+Timestamp: 34.36 s, Path de l'image: ./detections\detection_34.jpg, Objet d�tect�: bottle, Confiance: 0.7245032787322998
+Timestamp: 35.36 s, Path de l'image: ./detections\detection_35.jpg, Objet d�tect�: bottle, Confiance: 0.7590238451957703
+Timestamp: 36.36 s, Path de l'image: ./detections\detection_36.jpg, Objet d�tect�: bottle, Confiance: 0.7962697148323059
+Timestamp: 37.36 s, Path de l'image: ./detections\detection_37.jpg, Objet d�tect�: bottle, Confiance: 0.8116628527641296
+Timestamp: 38.36 s, Path de l'image: ./detections\detection_38.jpg, Objet d�tect�: bottle, Confiance: 0.7623796463012695
+Timestamp: 39.36 s, Path de l'image: ./detections\detection_39.jpg, Objet d�tect�: bottle, Confiance: 0.7814492583274841
+Timestamp: 40.36 s, Path de l'image: ./detections\detection_40.jpg, Objet d�tect�: bottle, Confiance: 0.85048508644104
+Timestamp: 41.36 s, Path de l'image: ./detections\detection_41.jpg, Objet d�tect�: bottle, Confiance: 0.5137374401092529
+Timestamp: 42.36 s, Path de l'image: ./detections\detection_42.jpg, Objet d�tect�: bottle, Confiance: 0.6304951310157776
+Timestamp: 43.52 s, Path de l'image: ./detections\detection_43.jpg, Objet d�tect�: bottle, Confiance: 0.598848819732666
+Timestamp: 44.52 s, Path de l'image: ./detections\detection_44.jpg, Objet d�tect�: bottle, Confiance: 0.7470723390579224
+Timestamp: 45.52 s, Path de l'image: ./detections\detection_45.jpg, Objet d�tect�: bottle, Confiance: 0.6364660859107971
+Timestamp: 46.52 s, Path de l'image: ./detections\detection_46.jpg, Objet d�tect�: bottle, Confiance: 0.6818830966949463
+Timestamp: 47.52 s, Path de l'image: ./detections\detection_47.jpg, Objet d�tect�: cup, Confiance: 0.5918583869934082
+Timestamp: 48.52 s, Path de l'image: ./detections\detection_48.jpg, Objet d�tect�: cup, Confiance: 0.7368814945220947
+Timestamp: 49.52 s, Path de l'image: ./detections\detection_49.jpg, Objet d�tect�: bottle, Confiance: 0.7257431149482727
+Timestamp: 50.52 s, Path de l'image: ./detections\detection_50.jpg, Objet d�tect�: cup, Confiance: 0.671417236328125
+Timestamp: 51.52 s, Path de l'image: ./detections\detection_51.jpg, Objet d�tect�: cup, Confiance: 0.6906982064247131
+Timestamp: 52.76 s, Path de l'image: ./detections\detection_52.jpg, Objet d�tect�: bottle, Confiance: 0.5194584131240845
+Timestamp: 54.92 s, Path de l'image: ./detections\detection_54.jpg, Objet d�tect�: bottle, Confiance: 0.6435206532478333
+Timestamp: 57.56 s, Path de l'image: ./detections\detection_57.jpg, Objet d�tect�: bottle, Confiance: 0.6266639828681946
+Timestamp: 58.56 s, Path de l'image: ./detections\detection_58.jpg, Objet d�tect�: bottle, Confiance: 0.601386308670044
+Timestamp: 59.56 s, Path de l'image: ./detections\detection_59.jpg, Objet d�tect�: bottle, Confiance: 0.6425747871398926
+Timestamp: 60.56 s, Path de l'image: ./detections\detection_60.jpg, Objet d�tect�: wine glass, Confiance: 0.7296335697174072
+Timestamp: 63.08 s, Path de l'image: ./detections\detection_63.jpg, Objet d�tect�: wine glass, Confiance: 0.5365357995033264
+Timestamp: 64.08 s, Path de l'image: ./detections\detection_64.jpg, Objet d�tect�: bottle, Confiance: 0.7090081572532654
+Timestamp: 65.12 s, Path de l'image: ./detections\detection_65.jpg, Objet d�tect�: bottle, Confiance: 0.5085291862487793
+Timestamp: 67.24 s, Path de l'image: ./detections\detection_67.jpg, Objet d�tect�: bottle, Confiance: 0.5097452402114868
+Timestamp: 68.48 s, Path de l'image: ./detections\detection_68.jpg, Objet d�tect�: bottle, Confiance: 0.5068438053131104
+Timestamp: 70.12 s, Path de l'image: ./detections\detection_70.jpg, Objet d�tect�: bottle, Confiance: 0.5007642507553101
+Timestamp: 71.44 s, Path de l'image: ./detections\detection_71.jpg, Objet d�tect�: bottle, Confiance: 0.5530262589454651
+Timestamp: 82.56 s, Path de l'image: ./detections\detection_82.jpg, Objet d�tect�: wine glass, Confiance: 0.5743716359138489
+Timestamp: 84.16 s, Path de l'image: ./detections\detection_84.jpg, Objet d�tect�: wine glass, Confiance: 0.5203747749328613
+Timestamp: 94.36 s, Path de l'image: ./detections\detection_94.jpg, Objet d�tect�: bottle, Confiance: 0.6654456853866577
+Timestamp: 95.36 s, Path de l'image: ./detections\detection_95.jpg, Objet d�tect�: bottle, Confiance: 0.5259340405464172
+Timestamp: 107.88 s, Path de l'image: ./detections\detection_107.jpg, Objet d�tect�: wine glass, Confiance: 0.5273995399475098
+Timestamp: 116.60 s, Path de l'image: ./detections\detection_116.jpg, Objet d�tect�: wine glass, Confiance: 0.650715172290802
+Timestamp: 117.60 s, Path de l'image: ./detections\detection_117.jpg, Objet d�tect�: bottle, Confiance: 0.558381974697113
+Timestamp: 118.60 s, Path de l'image: ./detections\detection_118.jpg, Objet d�tect�: bottle, Confiance: 0.6701089143753052
+Timestamp: 119.64 s, Path de l'image: ./detections\detection_119.jpg, Objet d�tect�: bottle, Confiance: 0.5481401085853577
+Timestamp: 120.68 s, Path de l'image: ./detections\detection_120.jpg, Objet d�tect�: bottle, Confiance: 0.5320339202880859
+Timestamp: 121.68 s, Path de l'image: ./detections\detection_121.jpg, Objet d�tect�: bottle, Confiance: 0.5159149765968323
+Timestamp: 123.16 s, Path de l'image: ./detections\detection_123.jpg, Objet d�tect�: bottle, Confiance: 0.5160415172576904
+Timestamp: 124.16 s, Path de l'image: ./detections\detection_124.jpg, Objet d�tect�: wine glass, Confiance: 0.7018600106239319
+Timestamp: 125.20 s, Path de l'image: ./detections\detection_125.jpg, Objet d�tect�: bottle, Confiance: 0.5174362659454346
+Timestamp: 126.20 s, Path de l'image: ./detections\detection_126.jpg, Objet d�tect�: bottle, Confiance: 0.5623875260353088
+Timestamp: 127.20 s, Path de l'image: ./detections\detection_127.jpg, Objet d�tect�: bottle, Confiance: 0.5609045624732971
+Timestamp: 128.24 s, Path de l'image: ./detections\detection_128.jpg, Objet d�tect�: bottle, Confiance: 0.5791078209877014
+Timestamp: 129.60 s, Path de l'image: ./detections\detection_129.jpg, Objet d�tect�: bottle, Confiance: 0.5254294872283936
+Timestamp: 130.60 s, Path de l'image: ./detections\detection_130.jpg, Objet d�tect�: bottle, Confiance: 0.5743880867958069
+Timestamp: 131.60 s, Path de l'image: ./detections\detection_131.jpg, Objet d�tect�: bottle, Confiance: 0.5518202185630798
+Timestamp: 132.60 s, Path de l'image: ./detections\detection_132.jpg, Objet d�tect�: bottle, Confiance: 0.575921893119812
+Timestamp: 133.60 s, Path de l'image: ./detections\detection_133.jpg, Objet d�tect�: bottle, Confiance: 0.5667605996131897
+Timestamp: 134.60 s, Path de l'image: ./detections\detection_134.jpg, Objet d�tect�: bottle, Confiance: 0.5808459520339966
+Timestamp: 135.60 s, Path de l'image: ./detections\detection_135.jpg, Objet d�tect�: bottle, Confiance: 0.6312731504440308
+Timestamp: 136.60 s, Path de l'image: ./detections\detection_136.jpg, Objet d�tect�: bottle, Confiance: 0.517812192440033
+Timestamp: 137.60 s, Path de l'image: ./detections\detection_137.jpg, Objet d�tect�: wine glass, Confiance: 0.5781953930854797
+Timestamp: 138.60 s, Path de l'image: ./detections\detection_138.jpg, Objet d�tect�: bottle, Confiance: 0.5347692966461182
+Timestamp: 139.60 s, Path de l'image: ./detections\detection_139.jpg, Objet d�tect�: bottle, Confiance: 0.5942434668540955
+Timestamp: 140.60 s, Path de l'image: ./detections\detection_140.jpg, Objet d�tect�: bottle, Confiance: 0.5860149264335632
+Timestamp: 141.88 s, Path de l'image: ./detections\detection_141.jpg, Objet d�tect�: wine glass, Confiance: 0.6587183475494385
+Timestamp: 143.48 s, Path de l'image: ./detections\detection_143.jpg, Objet d�tect�: wine glass, Confiance: 0.5423808097839355
+Timestamp: 144.60 s, Path de l'image: ./detections\detection_144.jpg, Objet d�tect�: wine glass, Confiance: 0.5270031690597534
+Timestamp: 145.60 s, Path de l'image: ./detections\detection_145.jpg, Objet d�tect�: wine glass, Confiance: 0.6153014898300171
+Timestamp: 146.60 s, Path de l'image: ./detections\detection_146.jpg, Objet d�tect�: wine glass, Confiance: 0.593406081199646

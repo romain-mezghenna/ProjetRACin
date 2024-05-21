@@ -1,5 +1,8 @@
 detections/
 images/
 transcripts/
+audios/
+chromadb/
+__pycache__/
 yolov8n.pt
 yolov8s.pt

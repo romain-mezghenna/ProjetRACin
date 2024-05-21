@@ -11,17 +11,17 @@ import torch
 # Optional : language parameter to specify the language of the video (default is None) like "fr" for French, "en" for English, etc. see : https://github.com/openai/whisper
 # The function writes the transcribed text to a file named "video_path-model_name.txt" in the directory ./transcripts/
 # Model name can be "small", "medium", or "large-v3" or "distil-large-v3"
-def transcribe_audio(model_name, video_path,video_extension="mp4",vad_filter=True, language=None):
+def transcribe_audio(model_name, video_path,vad_filter=True, language=None):
     # Test if the video file exists
     if not os.path.exists(video_path):
         print(f"Video file '{video_path}' does not exist.")
         return
     
     # Test if the audio file associated with the video exists in ./audios/ directory
-    audio_path = f"audios/{os.path.basename(video_path).split('.')[0]}.mp3"
+    audio_path = f"audios/{video_path}.mp3"
     if not os.path.exists(audio_path):
         print(f"Audio file '{audio_path}' does not exist. Extracting audio from the video.")
-        videoEditor.extract_audio(video_path, video_extension)
+        videoEditor.extract_audio(video_path)
         print(f"Audio extracted successfully.")
 
     # Test if the model name is valid

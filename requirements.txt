@@ -2,7 +2,7 @@ moviepy==1.0.3
 faster-whisper==1.0.1
 imageio-ffmpeg
 imageio
-torch
+torch==2.2.1
 jiwer
 ultralytics
 ollama

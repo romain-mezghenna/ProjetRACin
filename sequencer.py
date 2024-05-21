@@ -1,5 +1,3 @@
-import ollama
-
 # Description: This script contains the function extract_timestamps_scenes_and_objects that reads a file with timestamps and detected objects and extracts the timestamps, scenes and objects with their confidence levels.
 
 # Function to extract timestamps, scenes and objects from a file
@@ -52,26 +50,3 @@ def extract_detections(file_path, threshold=30):
         images.append(current_scene_images)
 
     return timestamps, scenes, scene_objects, images
-
-# Test the function with the file alcohol_detections.txt
-file_path = 'alcohol_detections.txt'
-all_timestamps, scenes, scene_objects, images = extract_detections(file_path)
-print("All timestamps:", all_timestamps)
-print("Scenes:", scenes)
-print ("Scene objects:", scene_objects)
-for i, scene in enumerate(scene_objects):
-    print(f"Scene {i+1} objects and confidence:")
-    for obj, confidence in scene:
-        print(f"- {obj}: {confidence}")
-
-print ("Images:", images)
-
-
-# response = ollama.generate(
-#             model="llava:13b",
-#             system="""You're a movie scene analyst and you're task is to describe the scene in the image given. You attention should be turned to the alcohol presence in the image. You're response is expected to be around 2 lines.""",
-#             prompt="Describe what is going on in this image, you're response must not exceed 3 lines :",
-#             images=["./detections/detection_95.jpg"]
-#         )
-
-# print(response.get('response'))
