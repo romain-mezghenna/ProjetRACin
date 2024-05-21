@@ -1,0 +1,2 @@
+timestamp: 60.53 s, image_path: ./detections\detection_harry-potter.mp4_60.jpg, object: bottle, score: 0.5637896656990051
+timestamp: 184.22 s, image_path: ./detections\detection_harry-potter.mp4_184.jpg, object: wine glass, score: 0.6888213753700256

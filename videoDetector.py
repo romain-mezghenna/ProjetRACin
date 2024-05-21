@@ -43,12 +43,12 @@ def alcohol_objects_detection(video_path):
 
                     # Vérifier si l'intervalle de temps depuis la dernière détection est supérieur à 1 seconde
                     if timestamp - last_detection_time >= 1:
-                        image_name = f'detection_{int(timestamp)}.jpg'
+                        image_name = f'detection_{video_path}_{int(timestamp)}.jpg'
                         image_path = os.path.join(output_dir, image_name)
                         # Affichage de la boîte de détection sur la frame
-                        frame = cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                        frame = cv2.putText(frame, object_name, (int(x1), int(y1 - 10)), cv2.FONT_HERSHEY_SIMPLEX, 1.3,
-                                            (0, 255, 0), 3, cv2.LINE_AA)
+                        # frame = cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+                        # frame = cv2.putText(frame, object_name, (int(x1), int(y1 - 10)), cv2.FONT_HERSHEY_SIMPLEX, 1.3,
+                        #                     (0, 255, 0), 3, cv2.LINE_AA)
                         cv2.imwrite(image_path, frame)
                         alcohol_detected_timestamps.append((timestamp, image_path, object_name, score))
                         last_detection_time = timestamp

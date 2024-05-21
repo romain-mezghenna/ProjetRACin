@@ -20,12 +20,12 @@ def extract_detections(file_path, threshold=30):
         current_scene_images = []
 
         for line in f:
-            if line.startswith('Timestamp:'):
+            if line.startswith('timestamp:'):
                 timestamp = float(line.split(':')[1].split(' ')[1].split(' ')[0])
                 timestamp = int(timestamp)
                 timestamps.append(timestamp)
                 image_path = line.split(', ')[1].split(': ')[1].strip()
-                current_scene_images.append(image_path)
+                
                 if scene_start is None:
                     scene_start = timestamp
                 elif last_timestamp is not None and timestamp - last_timestamp > threshold:
@@ -42,7 +42,7 @@ def extract_detections(file_path, threshold=30):
                 for obj in detected_objects.split(', '):
                     if obj not in [o[0] for o in current_scene_objects]:
                         current_scene_objects.append((obj, confidence))
-                
+                current_scene_images.append(image_path)
                 last_timestamp = timestamp
 
         scenes.append([scene_start, timestamps[-1]])
