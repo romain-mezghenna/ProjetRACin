@@ -6,3 +6,4 @@ chromadb/
 __pycache__/
 yolov8n.pt
 yolov8s.pt
+yolov8m.pt

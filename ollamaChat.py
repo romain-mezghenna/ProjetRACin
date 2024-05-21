@@ -71,7 +71,7 @@ scene_analyst = Agent(
     verbose=True,
     allow_delegation=False,
     tools=[],
-    llm=model_analyst
+    llm=model_image_analyst
 )
 
 transcript_summarizer = Agent(
@@ -83,7 +83,7 @@ transcript_summarizer = Agent(
     verbose=True,
     allow_delegation=False,
     tools=[],
-    llm=model_analyst
+    llm=model_image_analyst
 )
 
 
@@ -102,7 +102,7 @@ alcohol_grader = Agent(
     verbose=True,
     allow_delegation=False,
     tools=[],
-    llm=model_analyst
+    llm=model_image_analyst
 )
 
 formater = Agent(
@@ -117,7 +117,7 @@ formater = Agent(
     verbose=True,
     allow_delegation=False,
     tools=[],
-    llm=model_analyst
+    llm=model_image_analyst
 )
 
 
@@ -145,7 +145,7 @@ def get_scene_analysis(context):
         description=f"""
         Analyze the description of the scene and determine the probability of alcohol presence.
         """,
-        expected_output="""A float representing the probability of alcohol presence in the scene.""",
+        expected_output="""A float representing the probability of alcohol presence in the scene. from 0.2 to 0.8.""",
     )
 
     task3 = Task(
@@ -208,10 +208,13 @@ def main():
     for i, scene in enumerate(scenes):
         # Get the context of the scene 
         context = ""
+        # Add the length of the scene
+        context += f"Scene duration: {scene[1] - scene[0]:.2f} seconds\n"
         #Add the objects detected in the scene
         context += "Scene objects and confidence:\n"
-        for obj, confidence in scene_objects[i]:
-            context += f"- {obj}: {confidence}\n"
+
+        for obj, confidence, count in scene_objects[i]:
+            context += f"- {obj}: Average confidence : {confidence}, Number of detections : {count}\n"
         # Add the transcript in the file : f"transcripts/{os.path.basename(video_path)}-{model_name}.txt"
         transcript_file = f"transcripts/{os.path.basename(video_path)}-large-v3.txt"
         transcript = "Transcript:\n"
