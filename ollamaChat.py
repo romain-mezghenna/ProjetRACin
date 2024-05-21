@@ -2,12 +2,8 @@ import sys
 import ollama 
 import json
 from langchain_community.llms import Ollama
-from crewai import Agent, Task, Crew, Process
-import videoEditor as ve
-from typing import List
-from PIL import Image
-import base64
-from io import BytesIO
+from crewai import Agent, Task, Crew
+from crewai_tools import TXTSearchTool
 import os
 
 mode = "ollama"
@@ -51,8 +47,28 @@ def get_image_analysis(image_path):
     
     return response.get("response")
 
-
-
+# Tool to search for a text in a text
+tool = TXTSearchTool(
+    config=dict(
+        llm=dict(
+            provider="ollama", # or google, openai, anthropic, llama2, ...
+            config=dict(
+                model="llama3:latest",
+                # temperature=0.5,
+                # top_p=1,
+                # stream=true,
+            ),
+        ),
+        embedder=dict(
+            provider="ollama", # or openai, ollama, ...
+            config=dict(
+                model="mxbai-embed-large:latest",
+                task_type="retrieval_document",
+                # title="Embeddings",
+            ),
+        ),
+    )
+)
 
 
 
@@ -127,17 +143,18 @@ formater = Agent(
 
 # the path of the image is ./images/video-15.png
 
-def get_scene_analysis(context):
+def get_scene_analysis(context,video_path):
     # Analyze the scene
     task1 = Task(
         agent=scene_analyst,
         description=f"""
         Analyze the scene from the context given and give a precise description of it.
         Context :
-        {context} 
+        {context}
+        You can use the TXTSearchTool to search for the description in the transcript.
         """,
         expected_output="""The description of the scene in less that 4 lines.""",
-        tools=[],
+        tools=[TXTSearchTool("transcripts/"+video_path+"-large-v3.txt")],
     )
 
     task2 = Task(
@@ -222,22 +239,22 @@ def main():
             lines = f.readlines()
             for line in lines:
                     transcript += line
-        summuraize_task = Task(
-            agent=transcript_summarizer,
-            description=f"""
-            Summarize the transcript of the scene.
-            {transcript} 
-            """,
-            expected_output="""The summary of the transcript of the scene.""",
-            tools=[],
-        )
-        crew = Crew(
-            agents=[transcript_summarizer],
-            tasks=[summuraize_task],
-            verbose=True,   
-        )
-        result = crew.kickoff()
-        context += f"Transcript summary: {result}\n"
+        # summuraize_task = Task(
+        #     agent=transcript_summarizer,
+        #     description=f"""
+        #     Summarize the transcript of the scene.
+        #     {transcript} 
+        #     """,
+        #     expected_output="""The summary of the transcript of the scene.""",
+        #     tools=[],
+        # )
+        # crew = Crew(
+        #     agents=[transcript_summarizer],
+        #     tasks=[summuraize_task],
+        #     verbose=True,   
+        # )
+        # result = crew.kickoff()
+        # context += f"Transcript summary: {result}\n"
         # Select random images from the scene to analyze
         print(images)
         images_to_analyze = rs.select_random_images(scene=scene,images=images[i])
