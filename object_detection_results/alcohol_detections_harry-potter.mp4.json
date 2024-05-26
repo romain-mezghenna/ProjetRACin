@@ -1,0 +1,19 @@
+{
+  "video_file": "harry-potter.mp4",
+  "duration": 352.00999569892883,
+  "model": "./yolov8n.pt",
+  "results": [
+    {
+      "timestamp": 60.53,
+      "object_detected": "bottle",
+      "confidence": 0.56,
+      "image_path": "./object_detection_results/images\\detection_harry-potter.mp4_60.jpg"
+    },
+    {
+      "timestamp": 184.22,
+      "object_detected": "wine glass",
+      "confidence": 0.69,
+      "image_path": "./object_detection_results/images\\detection_harry-potter.mp4_184.jpg"
+    }
+  ]
+}

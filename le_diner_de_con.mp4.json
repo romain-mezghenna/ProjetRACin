@@ -1,0 +1,87 @@
+{
+  "video_path": "le_diner_de_con.mp4",
+  "llm_provider": "ollama",
+  "llm_analyst": "llama3:instruct",
+  "llm_image_analyst": "llava:13b",
+  "transcripter_provider": "faster_whisper",
+  "transcripter_model": "small",
+  "object_detector_provider": "yolov8",
+  "object_detector_model_path": "./yolov8n.pt",
+  "scenes": [
+    {
+      "start_time": 1.0,
+      "end_time": 21.0,
+      "objects_detected": [
+        {
+          "object_name": "bottle",
+          "count": 13
+        }
+      ],
+      "image_paths": [
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_1.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_4.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_5.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_6.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_7.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_8.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_15.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_16.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_17.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_18.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_19.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_20.jpg",
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_21.jpg"
+      ],
+      "transcript": [
+        " Il y a des moments où j'ai vraiment l'impression que vous pourriez pour un imbécile.",
+        " Mais bien sûr que je peux le faire. Qu'est-ce que je dois dire ?",
+        " On pourrait servir du bouquin qu'ils ont écrit ensemble.",
+        " Vous appelez le blanc et vous lui dites que vous êtes producteur de films."
+      ],
+      "image_analysis": [
+        "The image is a still from a video, showing a man in a living room setting. He appears to be engaged in a conversation or perhaps reacting to something happening off-screen. The man is wearing a dark-colored robe and is gesturing with his hands while sitting on the couch. The room has traditional furnishings including a sofa, chairs, and decorative items such as books and vases."
+      ],
+      "scene_analysis": "Based on the provided context, I assess the probability of alcohol presence as HIGH.\n\nThe scene features 13 bottles detected within the given time frame (1.0-21.0 minutes), which is an unusually high number for a single scene in most movies or TV shows. This suggests that the objects may be relevant to the story and characters, potentially indicating the presence of alcohol.\n\nImage analysis supports this assessment by depicting a living room setting with traditional furnishings, where bottles are commonly found. The absence of any indication otherwise (e.g., glasses, wine opener) further reinforces the likelihood of alcohol being present in some form.\n\nWhile transcription provides minimal insight into alcohol consumption, it does not contradict the presence of 13 bottles or suggest an alternative explanation for their appearance. Overall, based on object detection and image analysis, I conclude that there is a HIGH probability of alcohol presence in this scene.",
+      "analysis_duration": 23.0
+    },
+    {
+      "start_time": 193.0,
+      "end_time": 193.0,
+      "objects_detected": [
+        {
+          "object_name": "bottle",
+          "count": 1
+        }
+      ],
+      "image_paths": [
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_193.jpg"
+      ],
+      "transcript": [],
+      "image_analysis": [
+        "This image appears to be a still from a movie or television show, featuring an actor in the role of a character who is engaged in a conversation on his cell phone. The man is standing in what seems to be a room with various objects such as a lamp, decorative items and books in the background. He is dressed casually in a brown jacket and appears focused on his call. There are no other characters visible in this scene."
+      ],
+      "scene_analysis": "Based on the provided context, I assess the probability of alcohol presence as low.\n\nThe only detected object related to alcohol is one bottle. This suggests that there might not be any significant evidence of alcohol consumption in this scene.\n\nImage analysis provides additional information about the setting and characters' actions but does not directly indicate the presence or absence of alcohol.\n\nGiven these factors, I conclude that it's unlikely for alcohol to be present in this scene due to the single bottle detection.",
+      "analysis_duration": 22.0
+    },
+    {
+      "start_time": 231.0,
+      "end_time": 231.0,
+      "objects_detected": [
+        {
+          "object_name": "bottle",
+          "count": 1
+        }
+      ],
+      "image_paths": [
+        "./object_detection_results/images\\detection_le_diner_de_con.mp4_231.jpg"
+      ],
+      "transcript": [],
+      "image_analysis": [
+        "The image is a still from a film or television show featuring actors in an indoor setting. The scene captures a man in the foreground who appears to be experiencing shock or distress, with his mouth open and hand on his chest, as if he's just had a sudden realization or has been frightened by something. In the background, two other characters are present; one is seated at a desk, seemingly engaged in conversation with the man in the foreground who is sitting across from him. The setting suggests a professional environment, possibly an office or a boardroom."
+      ],
+      "scene_analysis": "Based on the provided context, I assess the probability of alcohol presence as low. The only detected object related to alcohol is one bottle, which suggests that it may not even be present in this specific scene. Additionally, there are no indicators of drinking or intoxication mentioned in the image analysis description.\n\nThe professional setting and lack of explicit signs of partying or socializing further reduce the likelihood of alcohol presence. The characters' actions suggest a serious conversation is taking place, which also contradicts the idea that they would be consuming alcohol during this interaction.\n\nGiven these factors, I conclude that it's unlikely to find any evidence of alcohol in this scene. Probability: 20%.",
+      "analysis_duration": 25.0
+    }
+  ],
+  "analysis_duration": 457.39
+}

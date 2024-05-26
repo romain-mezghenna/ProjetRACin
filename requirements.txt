@@ -2,12 +2,8 @@ moviepy==1.0.3
 faster-whisper==1.0.1
 imageio-ffmpeg
 imageio
-torch==2.2.1
-jiwer
 ultralytics
 ollama
-crewai
 langchain
 langchain-community
-chromadb
-crewai[tools]
+pydantic

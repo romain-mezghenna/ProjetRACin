@@ -1,0 +1,594 @@
+{
+  "video_file": "le_diner_de_con.mp4",
+  "duration": 46.71186184883118,
+  "model": "small",
+  "results": [
+    {
+      "start_time": 0.88,
+      "end_time": 8.01,
+      "sentence": " Monsieur Pignan, si je vous dis précisément ce qu'il faut lui dire, vous pensez que vous pouvez le faire ?"
+    },
+    {
+      "start_time": 8.01,
+      "end_time": 12.51,
+      "sentence": " Il y a des moments où j'ai vraiment l'impression que vous pourriez pour un imbécile."
+    },
+    {
+      "start_time": 12.51,
+      "end_time": 15.51,
+      "sentence": " Mais bien sûr que je peux le faire. Qu'est-ce que je dois dire ?"
+    },
+    {
+      "start_time": 15.51,
+      "end_time": 18.01,
+      "sentence": " On pourrait servir du bouquin qu'ils ont écrit ensemble."
+    },
+    {
+      "start_time": 18.01,
+      "end_time": 20.51,
+      "sentence": " Vous appelez le blanc et vous lui dites que vous êtes producteur de films."
+    },
+    {
+      "start_time": 20.51,
+      "end_time": 23.01,
+      "sentence": " Vous avez lu le roman et vous voulez acheter les droits pour le cinéma."
+    },
+    {
+      "start_time": 23.01,
+      "end_time": 24.01,
+      "sentence": " Ah oui, c'est bien ça."
+    },
+    {
+      "start_time": 24.01,
+      "end_time": 27.51,
+      "sentence": " Et en fin de conversation, vous lui demandez où vous pouvez joindre sa collaboratrice."
+    },
+    {
+      "start_time": 27.51,
+      "end_time": 29.51,
+      "sentence": " Quelle collaboratrice ?"
+    },
+    {
+      "start_time": 29.51,
+      "end_time": 32.01,
+      "sentence": " Ma femme, je vous ai dit qu'il avait écrit un bouquin avec elle."
+    },
+    {
+      "start_time": 32.01,
+      "end_time": 34.01,
+      "sentence": " Mais vous y exactement ok, d'accord, excusez-moi."
+    },
+    {
+      "start_time": 34.01,
+      "end_time": 35.01,
+      "sentence": " Ça marchera jamais."
+    },
+    {
+      "start_time": 35.01,
+      "end_time": 38.01,
+      "sentence": " Aussi, j'ai compris. C'est pas simple, mais j'ai compris."
+    },
+    {
+      "start_time": 38.01,
+      "end_time": 40.01,
+      "sentence": " Mais quoi c'est pas simple ? C'est tout simple. Vous êtes producteur, ok ?"
+    },
+    {
+      "start_time": 40.01,
+      "end_time": 41.01,
+      "sentence": " Ok, ok."
+    },
+    {
+      "start_time": 41.01,
+      "end_time": 42.01,
+      "sentence": " Vous avez une maison de production à Paris."
+    },
+    {
+      "start_time": 42.01,
+      "end_time": 44.51,
+      "sentence": " Non, pas à Paris. Connais tout le monde. Vous êtes un producteur étranger."
+    },
+    {
+      "start_time": 44.51,
+      "end_time": 46.51,
+      "sentence": " Ok. Américain, allemand."
+    },
+    {
+      "start_time": 46.51,
+      "end_time": 49.01,
+      "sentence": " Belge. Voilà, c'est parfait ça. Belge."
+    },
+    {
+      "start_time": 49.01,
+      "end_time": 50.51,
+      "sentence": " Pourquoi Belge ?"
+    },
+    {
+      "start_time": 50.51,
+      "end_time": 52.01,
+      "sentence": " Parce que c'est très bien Belge."
+    },
+    {
+      "start_time": 52.01,
+      "end_time": 53.51,
+      "sentence": " Vous êtes un gros producteur Belge."
+    },
+    {
+      "start_time": 53.51,
+      "end_time": 56.01,
+      "sentence": " Vous avez lu le Petit Cheval de Manège, c'est le titre du roman,"
+    },
+    {
+      "start_time": 56.01,
+      "end_time": 58.01,
+      "sentence": " et vous voulez lui acheter les droits pour le cinéma, ok ?"
+    },
+    {
+      "start_time": 58.01,
+      "end_time": 60.01,
+      "sentence": " C'est un bon livre."
+    },
+    {
+      "start_time": 60.01,
+      "end_time": 62.01,
+      "sentence": " Très mauvais qu'à l'importance."
+    },
+    {
+      "start_time": 62.01,
+      "end_time": 64.01,
+      "sentence": " Ça m'embête un peu, ça."
+    },
+    {
+      "start_time": 64.01,
+      "end_time": 65.01,
+      "sentence": " Pourquoi ?"
+    },
+    {
+      "start_time": 65.01,
+      "end_time": 67.01,
+      "sentence": " Si le bouquin est mauvais, pourquoi j'irai acheter les droits ?"
+    },
+    {
+      "start_time": 70.01,
+      "end_time": 72.51,
+      "sentence": " Monsieur Pignon, vous n'êtes pas producteur ?"
+    },
+    {
+      "start_time": 72.51,
+      "end_time": 73.51,
+      "sentence": " Non."
+    },
+    {
+      "start_time": 73.51,
+      "end_time": 74.51,
+      "sentence": " Vous n'êtes pas belge, non plus ?"
+    },
+    {
+      "start_time": 74.51,
+      "end_time": 75.51,
+      "sentence": " Non."
+    },
+    {
+      "start_time": 75.51,
+      "end_time": 77.51,
+      "sentence": " Ça n'est donc pas pour acheter le roi du livre que vous téléphonez,"
+    },
+    {
+      "start_time": 77.51,
+      "end_time": 79.51,
+      "sentence": " mais pour essayer de savoir où est ma femme ?"
+    },
+    {
+      "start_time": 81.51,
+      "end_time": 84.51,
+      "sentence": " Alors ça, c'est très tordu, mais bougrement intelligent."
+    },
+    {
+      "start_time": 84.51,
+      "end_time": 86.01,
+      "sentence": " C'est quoi son numéro ?"
+    },
+    {
+      "start_time": 86.01,
+      "end_time": 88.01,
+      "sentence": " 01 47 47."
+    },
+    {
+      "start_time": 88.01,
+      "end_time": 89.51,
+      "sentence": " Je vais le faire moi-même."
+    },
+    {
+      "start_time": 90.51,
+      "end_time": 92.51,
+      "sentence": " Il s'appelle juste Le Blanc."
+    },
+    {
+      "start_time": 92.51,
+      "end_time": 94.51,
+      "sentence": " Ah bon, il n'a pas de prénom."
+    },
+    {
+      "start_time": 94.51,
+      "end_time": 96.51,
+      "sentence": " Je viens de vous le dire, juste Le Blanc."
+    },
+    {
+      "start_time": 96.51,
+      "end_time": 102.55,
+      "sentence": " Le Blanc, c'est son nom, et c'est juste son prénom."
+    },
+    {
+      "start_time": 102.55,
+      "end_time": 109.02,
+      "sentence": " Monsieur Pignon, votre prénom à vous, c'est François, c'est juste ?"
+    },
+    {
+      "start_time": 109.02,
+      "end_time": 110.02,
+      "sentence": " Oui."
+    },
+    {
+      "start_time": 110.02,
+      "end_time": 113.78,
+      "sentence": " Et bien lui, c'est pareil, c'est juste."
+    },
+    {
+      "start_time": 113.78,
+      "end_time": 115.78,
+      "sentence": " Bon, on a assez perdu le temps comme ça."
+    },
+    {
+      "start_time": 115.78,
+      "end_time": 118.78,
+      "sentence": " Ma femme a signé le roman de son nom de jeune fille Christine Leguirec."
+    },
+    {
+      "start_time": 118.78,
+      "end_time": 120.78,
+      "sentence": " Ah bon ? Elle est Breton ?"
+    },
+    {
+      "start_time": 120.78,
+      "end_time": 122.78,
+      "sentence": " Je vous en prie, restez concentrés."
+    },
+    {
+      "start_time": 122.78,
+      "end_time": 123.78,
+      "sentence": " Excusez-moi."
+    },
+    {
+      "start_time": 123.78,
+      "end_time": 125.78,
+      "sentence": " Et vous n'oubliez pas, en fin de conversation,"
+    },
+    {
+      "start_time": 125.78,
+      "end_time": 128.78,
+      "sentence": " vous lui demandez où vous pouvez joindre Christine Leguirec."
+    },
+    {
+      "start_time": 128.78,
+      "end_time": 130.78,
+      "sentence": " Ça sonne, je vous baie sur en parleur."
+    },
+    {
+      "start_time": 130.78,
+      "end_time": 131.78,
+      "sentence": " C'est à vous."
+    },
+    {
+      "start_time": 131.78,
+      "end_time": 132.78,
+      "sentence": " Je prends l'assemblage ?"
+    },
+    {
+      "start_time": 132.78,
+      "end_time": 133.78,
+      "sentence": " Non."
+    },
+    {
+      "start_time": 133.78,
+      "end_time": 136.47,
+      "sentence": " Allô ?"
+    },
+    {
+      "start_time": 136.47,
+      "end_time": 137.47,
+      "sentence": " Allô ?"
+    },
+    {
+      "start_time": 137.47,
+      "end_time": 139.47,
+      "sentence": " Allô ?"
+    },
+    {
+      "start_time": 139.47,
+      "end_time": 141.47,
+      "sentence": " Pourrais-je parler à Monsieur Le Blanc ?"
+    },
+    {
+      "start_time": 141.47,
+      "end_time": 142.47,
+      "sentence": " Juste une fois."
+    },
+    {
+      "start_time": 142.47,
+      "end_time": 143.47,
+      "sentence": " C'est moi ?"
+    },
+    {
+      "start_time": 144.47,
+      "end_time": 146.47,
+      "sentence": " Bonsoir, Monsieur Le Blanc."
+    },
+    {
+      "start_time": 146.47,
+      "end_time": 148.47,
+      "sentence": " George Van Bruegel, à l'appareil."
+    },
+    {
+      "start_time": 148.47,
+      "end_time": 150.47,
+      "sentence": " Pardon de vous diranger une heure aussi tardive,"
+    },
+    {
+      "start_time": 150.47,
+      "end_time": 152.47,
+      "sentence": " mais je suis producteur belge, je ne sais pas."
+    },
+    {
+      "start_time": 152.47,
+      "end_time": 154.47,
+      "sentence": " J'arrive d'en volger qu'une fois,"
+    },
+    {
+      "start_time": 154.47,
+      "end_time": 156.47,
+      "sentence": " et je suis très intéressé par votre roman."
+    },
+    {
+      "start_time": 156.47,
+      "end_time": 158.47,
+      "sentence": " Le petit cheval de ma neige."
+    },
+    {
+      "start_time": 158.47,
+      "end_time": 160.47,
+      "sentence": " Le tactique cheval de ma neige."
+    },
+    {
+      "start_time": 160.47,
+      "end_time": 164.47,
+      "sentence": " J'aimerais discuter l'achat des droits pour le cinéma."
+    },
+    {
+      "start_time": 164.47,
+      "end_time": 166.47,
+      "sentence": " C'est une blague ou quoi ?"
+    },
+    {
+      "start_time": 166.47,
+      "end_time": 167.47,
+      "sentence": " Pas du tout."
+    },
+    {
+      "start_time": 167.47,
+      "end_time": 168.47,
+      "sentence": " Pourquoi une blague ?"
+    },
+    {
+      "start_time": 168.47,
+      "end_time": 169.47,
+      "sentence": " Etienne."
+    },
+    {
+      "start_time": 169.47,
+      "end_time": 170.47,
+      "sentence": " Pardon ?"
+    },
+    {
+      "start_time": 170.47,
+      "end_time": 172.47,
+      "sentence": " Arrête tes cordes, Etienne."
+    },
+    {
+      "start_time": 172.47,
+      "end_time": 173.47,
+      "sentence": " Je t'ai reconnu."
+    },
+    {
+      "start_time": 175.47,
+      "end_time": 177.47,
+      "sentence": " Vous faites erreur, Monsieur Le Blanc."
+    },
+    {
+      "start_time": 177.47,
+      "end_time": 178.47,
+      "sentence": " Je ne suis pas Etienne du tout."
+    },
+    {
+      "start_time": 178.47,
+      "end_time": 180.47,
+      "sentence": " Je suis producteur, et j'arrive de Bruxelles."
+    },
+    {
+      "start_time": 180.47,
+      "end_time": 181.47,
+      "sentence": " Quelle production ?"
+    },
+    {
+      "start_time": 181.47,
+      "end_time": 182.47,
+      "sentence": " Pardon ?"
+    },
+    {
+      "start_time": 183.47,
+      "end_time": 185.47,
+      "sentence": " Votre maison de production, c'est quoi ?"
+    },
+    {
+      "start_time": 185.47,
+      "end_time": 187.47,
+      "sentence": " Les films du plat pays."
+    },
+    {
+      "start_time": 187.47,
+      "end_time": 188.47,
+      "sentence": " Les films du plat pays ?"
+    },
+    {
+      "start_time": 188.47,
+      "end_time": 191.47,
+      "sentence": " Ce sera une production jeune, mais dynamique, Monsieur Le Blanc."
+    },
+    {
+      "start_time": 191.47,
+      "end_time": 193.47,
+      "sentence": " Et vous êtes intéressé par mon roman ?"
+    },
+    {
+      "start_time": 193.47,
+      "end_time": 195.47,
+      "sentence": " Absolument, très intéressé, oui."
+    },
+    {
+      "start_time": 195.47,
+      "end_time": 197.47,
+      "sentence": " C'est pour le cinéma ou la télé ?"
+    },
+    {
+      "start_time": 197.47,
+      "end_time": 199.47,
+      "sentence": " Pour le cinéma, Monsieur Le Blanc,"
+    },
+    {
+      "start_time": 199.47,
+      "end_time": 201.47,
+      "sentence": " pour le grand écran."
+    },
+    {
+      "start_time": 201.47,
+      "end_time": 203.47,
+      "sentence": " Pas pour la petite lucarne."
+    },
+    {
+      "start_time": 203.47,
+      "end_time": 206.47,
+      "sentence": " Je dois vous prévenir que j'aimerais faire l'adaptation moi-même."
+    },
+    {
+      "start_time": 206.47,
+      "end_time": 208.47,
+      "sentence": " Vous ne saurez pas poser problème,"
+    },
+    {
+      "start_time": 208.47,
+      "end_time": 210.47,
+      "sentence": " mais vous devez seulement savouer"
+    },
+    {
+      "start_time": 210.47,
+      "end_time": 212.47,
+      "sentence": " que nous ne sommes pas une grosse production"
+    },
+    {
+      "start_time": 212.47,
+      "end_time": 214.47,
+      "sentence": " et que nous l'avons pas de nos moyens."
+    },
+    {
+      "start_time": 214.47,
+      "end_time": 216.47,
+      "sentence": " Si vous n'êtes pas trop gourmand,"
+    },
+    {
+      "start_time": 216.47,
+      "end_time": 218.47,
+      "sentence": " on règlera les questions d'argent plus tard."
+    },
+    {
+      "start_time": 218.47,
+      "end_time": 220.47,
+      "sentence": " Quand puis-je pour rencontrer Monsieur ?"
+    },
+    {
+      "start_time": 220.47,
+      "end_time": 221.47,
+      "sentence": " Monsieur ?"
+    },
+    {
+      "start_time": 221.47,
+      "end_time": 223.47,
+      "sentence": " Vendriguel, alors rigodez."
+    },
+    {
+      "start_time": 223.47,
+      "end_time": 225.47,
+      "sentence": " Je vous appelle demain chez vous, et on te rendez vous une fois."
+    },
+    {
+      "start_time": 225.47,
+      "end_time": 227.47,
+      "sentence": " Entendu, à demain."
+    },
+    {
+      "start_time": 227.47,
+      "end_time": 229.47,
+      "sentence": " À demain, Monsieur Le Blanc !"
+    },
+    {
+      "start_time": 229.47,
+      "end_time": 231.47,
+      "sentence": " Et voilà, on a les droits."
+    },
+    {
+      "start_time": 235.47,
+      "end_time": 237.47,
+      "sentence": " Pour pas cher à mon avis, il a marché."
+    },
+    {
+      "start_time": 237.47,
+      "end_time": 239.47,
+      "sentence": " Il a marché à fond, le gars."
+    },
+    {
+      "start_time": 239.47,
+      "end_time": 241.47,
+      "sentence": " Et ma femme ?"
+    },
+    {
+      "start_time": 241.47,
+      "end_time": 242.47,
+      "sentence": " Quoi ?"
+    },
+    {
+      "start_time": 242.47,
+      "end_time": 246.49,
+      "sentence": " Il a oublié ma femme."
+    },
+    {
+      "start_time": 246.49,
+      "end_time": 248.49,
+      "sentence": " Il fait le clown pendant 5 minutes"
+    },
+    {
+      "start_time": 248.49,
+      "end_time": 250.49,
+      "sentence": " et il oublie ma femme."
+    },
+    {
+      "start_time": 250.49,
+      "end_time": 252.49,
+      "sentence": " À la boulette."
+    },
+    {
+      "start_time": 252.49,
+      "end_time": 255.49,
+      "sentence": " Ça dépasse tout ce que j'ai pu imaginer."
+    }
+  ],
+  "language": "fr",
+  "language_probability": 0.985776960849762
+}

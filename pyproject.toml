@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "projetracin"
+version = "0.1.0"
+description = "Projet industriel visant à créer un prototype utilisant l'IA afin de déterminer la présence d'alcool dans les films"
+authors = ["romain-mezghenna <romain24.mezghenna01@gmail.com> ,alexis-chartier <alexis.chartier@etu.umontpellier.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+moviepy = "^1.0.3"
+faster-whisper = "^1.0.1"
+imageio-ffmpeg = "^0.4.9"
+imageio = "^2.34.1"
+torch = "^2.3.0"
+jiwer = "^3.0.4"
+ultralytics = "^8.2.22"
+ollama = "^0.2.0"
+langchain = "^0.2.1"
+langchain-community = "^0.2.1"
+ctranslate2 = "^4.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

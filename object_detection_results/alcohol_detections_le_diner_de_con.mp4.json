@@ -1,0 +1,97 @@
+{
+  "video_file": "le_diner_de_con.mp4",
+  "duration": 335.5718286037445,
+  "model": "./yolov8n.pt",
+  "results": [
+    {
+      "timestamp": 1.0,
+      "object_detected": "bottle",
+      "confidence": 0.87,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_1.jpg"
+    },
+    {
+      "timestamp": 4.12,
+      "object_detected": "bottle",
+      "confidence": 0.87,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_4.jpg"
+    },
+    {
+      "timestamp": 5.12,
+      "object_detected": "bottle",
+      "confidence": 0.8,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_5.jpg"
+    },
+    {
+      "timestamp": 6.12,
+      "object_detected": "bottle",
+      "confidence": 0.8,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_6.jpg"
+    },
+    {
+      "timestamp": 7.12,
+      "object_detected": "bottle",
+      "confidence": 0.82,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_7.jpg"
+    },
+    {
+      "timestamp": 8.12,
+      "object_detected": "bottle",
+      "confidence": 0.84,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_8.jpg"
+    },
+    {
+      "timestamp": 15.72,
+      "object_detected": "bottle",
+      "confidence": 0.85,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_15.jpg"
+    },
+    {
+      "timestamp": 16.76,
+      "object_detected": "bottle",
+      "confidence": 0.89,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_16.jpg"
+    },
+    {
+      "timestamp": 17.76,
+      "object_detected": "bottle",
+      "confidence": 0.82,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_17.jpg"
+    },
+    {
+      "timestamp": 18.76,
+      "object_detected": "bottle",
+      "confidence": 0.9,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_18.jpg"
+    },
+    {
+      "timestamp": 19.76,
+      "object_detected": "bottle",
+      "confidence": 0.87,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_19.jpg"
+    },
+    {
+      "timestamp": 20.76,
+      "object_detected": "bottle",
+      "confidence": 0.86,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_20.jpg"
+    },
+    {
+      "timestamp": 21.76,
+      "object_detected": "bottle",
+      "confidence": 0.87,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_21.jpg"
+    },
+    {
+      "timestamp": 193.04,
+      "object_detected": "bottle",
+      "confidence": 0.56,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_193.jpg"
+    },
+    {
+      "timestamp": 231.28,
+      "object_detected": "bottle",
+      "confidence": 0.61,
+      "image_path": "./object_detection_results/images\\detection_le_diner_de_con.mp4_231.jpg"
+    }
+  ]
+}
