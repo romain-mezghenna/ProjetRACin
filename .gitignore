@@ -4,6 +4,8 @@ transcripts/
 audios/
 chromadb/
 __pycache__/
+object_detection_results/
+transcript_results/
 yolov8n.pt
 yolov8s.pt
 yolov8m.pt
