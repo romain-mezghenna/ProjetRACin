@@ -43,8 +43,11 @@ This repository hosts the prototype for detecting alcohol representations in fil
 
 The prototype uses a class-based architecture designed for flexibility and ease of integration with various model providers. The abstract factory design pattern allows switching between different model providers without modifying the existing codebase.
 
-For a detailed view of the class diagram, refer to `class_diagram.jpeg` in the repository.
+For a detailed view of the class diagram, refer to `class_diagram.jpeg` in the `docs/` repository.
 
+For a detailed view of an example of utilisation, refer to `sequence_diagram.jpeg` in the `docs/` repository.
+
+For an example of analysis please consul `main.py`.
 ## Getting Started
 
 ### Downloading the Prototype
