@@ -61,6 +61,11 @@ cd ProjetRACin
 Install the required Python libraries using the command to install from the `requirements.txt` file.
 
 **Note for Windows users:** If you encounter errors, install Visual Studio Build Tools. [Download here](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+    Select : - [x] MSM de C++ 2022 Redistribuable
+- [x] MSVC v143 - VS 2022 C++ x64/x86 Build Tool (latest version)
+- [x] Kit de développement logiciel (SDK) Windows 10/11 (selon votre version de Windows)
+
+ 
 
 ### Running the Program
 
