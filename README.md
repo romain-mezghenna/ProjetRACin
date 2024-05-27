@@ -41,7 +41,7 @@ This repository hosts the prototype for detecting alcohol representations in fil
 
 ### Overall Architecture
 
-The prototype uses a class-based architecture designed for flexibility and ease of integration with various model providers and the uses of differents stategies of analysis. The abstract factory design pattern allows switching between different model providers without modifying the existing codebase.
+The prototype uses a class-based architecture designed for flexibility and ease of integration with various model providers and the uses of differents analysis stategies. The abstract factory design pattern allows switching between different model providers without modifying the existing codebase.
 
 For a detailed view of the class diagram, refer to `class_diagram.jpeg` in the `docs/` repository.
 
