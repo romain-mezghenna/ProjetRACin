@@ -100,7 +100,9 @@ We welcome contributions from the community. To contribute, please follow these 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Authors
+
 Romain Mezghenna : **romain24.mezghenna01@gmail.com**
+
 Alexis Chartier : **alexischartier30130pse@gmail.com**
 
 ## Acknowledgments
