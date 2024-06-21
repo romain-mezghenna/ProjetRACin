@@ -1,0 +1,230 @@
+{
+  "video_path": "video.mp4",
+  "llm_provider": "ollama",
+  "llm_analyst": "llama3:instruct",
+  "llm_image_analyst": "llaava:13b",
+  "transcripter_provider": "faster_whisper",
+  "transcripter_model": "small",
+  "object_detector_provider": "yolov8",
+  "object_detector_model_path": "yolov8n.pt",
+  "scenes": [
+    {
+      "start_time": 1.0,
+      "end_time": 146.0,
+      "objects_detected": [
+        {
+          "object_name": "bottle",
+          "count": 68
+        },
+        {
+          "object_name": "cup",
+          "count": 4
+        },
+        {
+          "object_name": "wine glass",
+          "count": 13
+        }
+      ],
+      "image_paths": [
+        "./object_detection_results/images\\detection_video.mp4_1.jpg",
+        "./object_detection_results/images\\detection_video.mp4_2.jpg",
+        "./object_detection_results/images\\detection_video.mp4_3.jpg",
+        "./object_detection_results/images\\detection_video.mp4_4.jpg",
+        "./object_detection_results/images\\detection_video.mp4_5.jpg",
+        "./object_detection_results/images\\detection_video.mp4_6.jpg",
+        "./object_detection_results/images\\detection_video.mp4_7.jpg",
+        "./object_detection_results/images\\detection_video.mp4_8.jpg",
+        "./object_detection_results/images\\detection_video.mp4_9.jpg",
+        "./object_detection_results/images\\detection_video.mp4_10.jpg",
+        "./object_detection_results/images\\detection_video.mp4_11.jpg",
+        "./object_detection_results/images\\detection_video.mp4_12.jpg",
+        "./object_detection_results/images\\detection_video.mp4_13.jpg",
+        "./object_detection_results/images\\detection_video.mp4_15.jpg",
+        "./object_detection_results/images\\detection_video.mp4_16.jpg",
+        "./object_detection_results/images\\detection_video.mp4_29.jpg",
+        "./object_detection_results/images\\detection_video.mp4_30.jpg",
+        "./object_detection_results/images\\detection_video.mp4_31.jpg",
+        "./object_detection_results/images\\detection_video.mp4_32.jpg",
+        "./object_detection_results/images\\detection_video.mp4_33.jpg",
+        "./object_detection_results/images\\detection_video.mp4_34.jpg",
+        "./object_detection_results/images\\detection_video.mp4_35.jpg",
+        "./object_detection_results/images\\detection_video.mp4_36.jpg",
+        "./object_detection_results/images\\detection_video.mp4_37.jpg",
+        "./object_detection_results/images\\detection_video.mp4_38.jpg",
+        "./object_detection_results/images\\detection_video.mp4_39.jpg",
+        "./object_detection_results/images\\detection_video.mp4_40.jpg",
+        "./object_detection_results/images\\detection_video.mp4_41.jpg",
+        "./object_detection_results/images\\detection_video.mp4_42.jpg",
+        "./object_detection_results/images\\detection_video.mp4_43.jpg",
+        "./object_detection_results/images\\detection_video.mp4_44.jpg",
+        "./object_detection_results/images\\detection_video.mp4_45.jpg",
+        "./object_detection_results/images\\detection_video.mp4_46.jpg",
+        "./object_detection_results/images\\detection_video.mp4_47.jpg",
+        "./object_detection_results/images\\detection_video.mp4_48.jpg",
+        "./object_detection_results/images\\detection_video.mp4_49.jpg",
+        "./object_detection_results/images\\detection_video.mp4_50.jpg",
+        "./object_detection_results/images\\detection_video.mp4_51.jpg",
+        "./object_detection_results/images\\detection_video.mp4_52.jpg",
+        "./object_detection_results/images\\detection_video.mp4_54.jpg",
+        "./object_detection_results/images\\detection_video.mp4_57.jpg",
+        "./object_detection_results/images\\detection_video.mp4_58.jpg",
+        "./object_detection_results/images\\detection_video.mp4_59.jpg",
+        "./object_detection_results/images\\detection_video.mp4_60.jpg",
+        "./object_detection_results/images\\detection_video.mp4_63.jpg",
+        "./object_detection_results/images\\detection_video.mp4_64.jpg",
+        "./object_detection_results/images\\detection_video.mp4_65.jpg",
+        "./object_detection_results/images\\detection_video.mp4_67.jpg",
+        "./object_detection_results/images\\detection_video.mp4_68.jpg",
+        "./object_detection_results/images\\detection_video.mp4_70.jpg",
+        "./object_detection_results/images\\detection_video.mp4_71.jpg",
+        "./object_detection_results/images\\detection_video.mp4_82.jpg",
+        "./object_detection_results/images\\detection_video.mp4_84.jpg",
+        "./object_detection_results/images\\detection_video.mp4_94.jpg",
+        "./object_detection_results/images\\detection_video.mp4_95.jpg",
+        "./object_detection_results/images\\detection_video.mp4_107.jpg",
+        "./object_detection_results/images\\detection_video.mp4_116.jpg",
+        "./object_detection_results/images\\detection_video.mp4_117.jpg",
+        "./object_detection_results/images\\detection_video.mp4_118.jpg",
+        "./object_detection_results/images\\detection_video.mp4_119.jpg",
+        "./object_detection_results/images\\detection_video.mp4_120.jpg",
+        "./object_detection_results/images\\detection_video.mp4_121.jpg",
+        "./object_detection_results/images\\detection_video.mp4_123.jpg",
+        "./object_detection_results/images\\detection_video.mp4_124.jpg",
+        "./object_detection_results/images\\detection_video.mp4_125.jpg",
+        "./object_detection_results/images\\detection_video.mp4_126.jpg",
+        "./object_detection_results/images\\detection_video.mp4_127.jpg",
+        "./object_detection_results/images\\detection_video.mp4_128.jpg",
+        "./object_detection_results/images\\detection_video.mp4_129.jpg",
+        "./object_detection_results/images\\detection_video.mp4_130.jpg",
+        "./object_detection_results/images\\detection_video.mp4_131.jpg",
+        "./object_detection_results/images\\detection_video.mp4_132.jpg",
+        "./object_detection_results/images\\detection_video.mp4_133.jpg",
+        "./object_detection_results/images\\detection_video.mp4_134.jpg",
+        "./object_detection_results/images\\detection_video.mp4_135.jpg",
+        "./object_detection_results/images\\detection_video.mp4_136.jpg",
+        "./object_detection_results/images\\detection_video.mp4_137.jpg",
+        "./object_detection_results/images\\detection_video.mp4_138.jpg",
+        "./object_detection_results/images\\detection_video.mp4_139.jpg",
+        "./object_detection_results/images\\detection_video.mp4_140.jpg",
+        "./object_detection_results/images\\detection_video.mp4_141.jpg",
+        "./object_detection_results/images\\detection_video.mp4_143.jpg",
+        "./object_detection_results/images\\detection_video.mp4_144.jpg",
+        "./object_detection_results/images\\detection_video.mp4_145.jpg",
+        "./object_detection_results/images\\detection_video.mp4_146.jpg"
+      ],
+      "transcript": [
+        " Qu'est-ce qu'on fait ? On se risque sur le bizarre ?",
+        " Ça va rajeunir personne.",
+        " Ah, nous l'a sauvés.",
+        " Sauvés ?",
+        " Oui.",
+        " Tiens, vous avez sorti le vitriol ?",
+        " Pourquoi vous dites ça ?",
+        " C'est important, là, honnête.",
+        " Sans être franchement mal honnête, au premier abord, comme ça,",
+        " il a l'air assez curieux.",
+        " Il date du Mexicain, du temps des grandes heures.",
+        " Seulement, on a dû arrêter la fabrication.",
+        " Il y a des clients qui devenaient aveugles.",
+        " Alors, ça faisait des histoires. Allez.",
+        " Il faut reconnaître.",
+        " C'est du brutal.",
+        " Vous avez raison. Il est curieux, hein.",
+        " J'ai connu une polonaise qu'on prenait au petit-déjeuner.",
+        " Il faut quand même un McFay plutôt de boissons d'hommes.",
+        " Tu sais pas ce qui me rappelle ?",
+        " Cet espèce de drôle riz qu'on buvait dans une petite taule de bienoin",
+        " pour tellement loin de sa ligue.",
+        " Les volets rouges.",
+        " Et la taullière.",
+        " Une blonde comaque.",
+        " Comment qu'elle s'appelait nom de Dieu ?",
+        " Lulule à nantaises.",
+        " T'as connu ?",
+        " J'ai toi un goût de pommes."
+      ],
+      "image_analysis": [],
+      "scene_analysis": "Based on the provided context, I assess the probability of alcohol presence as low.\n\nThe transcription reveals a conversation between characters discussing drinks (\"un McFay plutôt de boissons d'hommes\") and someone mentioning having a taste for apples (\"J'ai toi un go�t de pommes\"), which could imply some kind of beverage. However, this is the least important factor in my assessment.\n\nImage analyses are more relevant; unfortunately, no image analysis data was provided to inform my decision.\n\nThe most significant factor is the number and type of detected objects related to alcohol by minutes in the scene. Since none were mentioned or detected, I cannot rely on this information for a conclusive assessment.\n\nConsidering these factors, I conclude that while there may be some hint at beverage consumption through conversation, the overall probability of alcohol presence remains low due to lack of concrete evidence from image analyses and object detection.",
+      "analysis_duration": 884.0
+    }
+  ],
+  "documents": {
+    "ids": [
+      [
+        "id_video.mp4_transcript_1.0_4",
+        "id_video.mp4_transcript_1.0_15",
+        "id_video.mp4_transcript_1.0_19",
+        "id_video.mp4_transcript_1.0_18",
+        "id_video.mp4_transcript_1.0_27",
+        "id_video.mp4_transcript_1.0_28",
+        "id_video.mp4_transcript_1.0_12",
+        "id_video.mp4_transcript_1.0_5",
+        "id_video.mp4_transcript_1.0_25",
+        "id_video.mp4_transcript_1.0_22"
+      ]
+    ],
+    "distances": null,
+    "metadatas": [
+      [
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        },
+        {
+          "source": "video.mp4",
+          "type": "transcript"
+        }
+      ]
+    ],
+    "embeddings": null,
+    "documents": [
+      [
+        " Oui.",
+        " C'est du brutal.",
+        " Tu sais pas ce qui me rappelle ?",
+        " Il faut quand même un McFay plutôt de boissons d'hommes.",
+        " T'as connu ?",
+        " J'ai toi un goût de pommes.",
+        " Il y a des clients qui devenaient aveugles.",
+        " Tiens, vous avez sorti le vitriol ?",
+        " Comment qu'elle s'appelait nom de Dieu ?",
+        " Les volets rouges."
+      ]
+    ],
+    "uris": null,
+    "data": null
+  },
+  "analysis_duration": 883.88
+}

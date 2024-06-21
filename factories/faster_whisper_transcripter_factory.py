@@ -58,7 +58,7 @@ class FasterWhisperTranscripterFactory(TranscripterFactory):
                 
             
                 # Load the Whisper model
-                model = WhisperModel(self.model_name)
+                model = WhisperModel(self.model_name,device="cpu")
 
                 print(f"Model {self.model_name} loaded successfully.")
 

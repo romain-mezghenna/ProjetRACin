@@ -7,3 +7,6 @@ ollama
 langchain
 langchain-community
 pydantic
+sentence-transformers
+sentencepiece
+chromadb

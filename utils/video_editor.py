@@ -48,13 +48,27 @@ def extract_image(video_file, time):
     if os.path.exists(video_file + "-" + str(time) + ".png"):
         print(f"Image file {video_file}-{time}.png already exists.")
         return
-    if not os.path.exists(video_file + ".mp4"):
+    if not os.path.exists(video_file):
         print(f"Video file {video_file}.mp4 does not exist.")
         return
     try :
-        video = moviepy.editor.VideoFileClip(video_file + ".mp4")
+        video = moviepy.editor.VideoFileClip(video_file)
         video.save_frame("./images/" + video_file + "-" + str(time) + ".png", t=time)
         print(f"Image file {video_file}-{time}.png has been succesfully saved.")
         return "./images/" + video_file + "-" + str(time) + ".png"
     except Exception as e:
         print(f"Error while extracting the image from the video : {e}")
+
+
+# Function to get the duration of a video
+# Input : video_file : the path to the video file
+# Output : the duration of the video in seconds
+def get_video_duration(video_file):
+    # Get the duration of the video
+    try :
+        video = moviepy.editor.VideoFileClip(video_file)
+        duration = video.duration
+        return duration
+    except Exception as e:
+        print(f"Error while getting the duration of the video : {e}")
+        return 0

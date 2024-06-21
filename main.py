@@ -128,7 +128,6 @@ transcript = transcript_agent.analyze(video_path=video_path)
 detections = object_detection_agent.analyze(video_path=video_path)
 # Parse the detections in scenes 
 scenes = extract_detections(detections.results)
-print(scenes)
 # For each scene
 for scene in scenes:
     start_scene_time = time.time()

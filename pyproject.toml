@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Projet industriel visant à créer un prototype utilisant l'IA afin de déterminer la présence d'alcool dans les films"
 authors = ["romain-mezghenna <romain24.mezghenna01@gmail.com> ,alexis-chartier <alexis.chartier@etu.umontpellier.fr>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -18,6 +19,9 @@ ollama = "^0.2.0"
 langchain = "^0.2.1"
 langchain-community = "^0.2.1"
 ctranslate2 = "^4.3.0"
+pydantic = "^2.7.4"
+sentence-transformers = "^3.0.1"
+chromadb = "^0.5.3"
 
 
 [build-system]
